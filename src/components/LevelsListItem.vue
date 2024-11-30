@@ -17,10 +17,11 @@ const level = computed(() => {
 	return Level.getLevel(props.level)
 })
 const color = computed(() => {
+	const domainColor = Level.domainsColors[level.value.domain]
 	if (!props.unlocked) {
-		return '#555'
+		return `color-mix(in srgb, ${domainColor} 20%, #555 80%)`
 	}
-	return Level.domainsColors[level.value.domain]
+	return domainColor
 })
 </script>
 
