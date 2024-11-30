@@ -25,10 +25,29 @@ Players are presented with an equation to solve. They can use the unlocked tools
 
 ## Installation
 
-1. Clone the repository: `git clone https://github.com/foxypiratecove37350/Solverla`
-2. Navigate to the project directory: `cd Solverla`
-3. Install dependencies: `npm install`
-4. Run the development server: `npm run dev`
+1. Clone the repository:
+
+    ```shell
+    git clone https://github.com/foxypiratecove37350/Solverla
+    ```
+
+2. Navigate to the project directory:
+
+    ```shell
+    cd Solverla
+    ```
+
+3. Install dependencies:
+
+    ```shell
+    npm install
+    ```
+
+4. Run the development server:
+
+    ```shell
+    npm run dev
+    ```
 
 ## License
 
