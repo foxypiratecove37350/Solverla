@@ -15,13 +15,17 @@ Solverla is a math game built with Vue.js where players solve equations to progr
 
 Players are presented with an equation to solve. They can use the unlocked tools to manipulate the equation and find the solution. Correct solutions unlock new tools and progress to the next level.
 
-## Technology Stack
+## Development Technologies
 
-- Vue.js
-- VueRouter
-- Vite
-- KaTeX
-- TypeScript
+- **Frontend Framework:** Vue.js
+- **Type Safety:** TypeScript
+- **Routing:** VueRouter
+- **Build Tool:** Vite
+- **Typescript:** Typescript
+- **Mathematics Rendering:** KaTeX
+- **Desktop Packaging:** Electron, Electron-Forge
+- **Mobile Packaging:** Capacitor
+- **Backend/Server:** Node.js
 
 ## Installation
 
@@ -43,10 +47,26 @@ Players are presented with an equation to solve. They can use the unlocked tools
     npm install
     ```
 
-4. Run the development server:
+4. Build for development:
 
     ```shell
     npm run dev
+    ```
+
+    Or build for production:
+
+    ```shell
+    npm run build
+    ```
+
+    Then, choose the platform:
+
+    ```
+    ? Chose the platform: (Use arrow keys)
+    ❯ Web
+      Electron
+      Android
+      iOS
     ```
 
 ## License
