@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { RouterLink } from 'vue-router'
-import LaTeX from '../components/LaTeX.vue'
-import ToolTip from '../components/ToolTip.vue'
+import LaTeX from '@/components/LaTeX.vue'
+import ToolTip from '@/components/ToolTip.vue'
 </script>
 
 <template>
