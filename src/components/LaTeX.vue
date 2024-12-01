@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import katex from 'katex'
-import { defineProps } from 'vue'
 
 defineProps({
 	expr: {
